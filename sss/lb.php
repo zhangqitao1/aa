@@ -5,7 +5,7 @@ $discuz = & discuz_core::instance();//以下代码为创建及初始化对象
 $discuz->init();    
 $tid=$_GET['tid']?intval($_GET['tid']):0;
 
- 
+ dd
 
 $cooname='Lb-'.$tid;
 $lbm=getcookie($cooname);
