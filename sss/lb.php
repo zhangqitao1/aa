@@ -32,4 +32,6 @@ if(!$lbm) {
  include template('common/lb');//调用单页模版文件
  exit;
 ddd
+
+ddd
 ?> 
